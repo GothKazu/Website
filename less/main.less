@@ -1,30 +1,42 @@
+.top{
+
+    h1{
+        color:white;
+        text-shadow: 0.1rem 0.1rem @mainColor;
+    }
+}
+
 .about {
     margin-top: 3%;
-    background-image: linear-gradient(#2F2F31, #990000);
+    background-image: linear-gradient(@sideColor, @mainColor);
     }//closes about
     
-    .media{
-        margin-top: -1.6rem;
-        padding-top: 2rem;
-        background-color: #990000;
+.media{
+    margin-top: -1.6rem;
+    padding-top: 2rem;
+    background-color: @mainColor;
     
-        div {
-            .flex(center,center, row);
+    .social {
+        .flex(center,center, row);
 
+        div{
+            width: 30%;
+                
             a{
-                width:20%;
-                margin: 5%;
                 text-decoration: none;
                 color: black;
+                font-size: 3rem;
             }//closes div a
-        }//closes media div
-    }//closes media
-    h6 {
-    font-size: 20px;
-    }
-    
-    address {
-    font-size: 1rem;
-    padding-top: 2rem;
-    background-image: linear-gradient(#990000, #2F2F31);
-    }
+        }//closes div
+    }//closes social
+}//closes media
+
+h6 {
+font-size: 0.2rem;
+}
+
+address {
+font-size: 1rem;
+padding-top: 2rem;
+background-image: linear-gradient(@mainColor, @sideColor);
+}

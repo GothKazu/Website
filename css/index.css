@@ -87,7 +87,11 @@ nav a {
   color: black;
 }
 nav a:hover {
-  color: green;
+  color: #990000;
+}
+.top h1 {
+  color: white;
+  text-shadow: 0.1rem 0.1rem #990000;
 }
 .about {
   margin-top: 3%;
@@ -98,20 +102,22 @@ nav a:hover {
   padding-top: 2rem;
   background-color: #990000;
 }
-.media div {
+.media .social {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-.media div a {
-  width: 20%;
-  margin: 5%;
+.media .social div {
+  width: 30%;
+}
+.media .social div a {
   text-decoration: none;
   color: black;
+  font-size: 3rem;
 }
 h6 {
-  font-size: 20px;
+  font-size: 0.2rem;
 }
 address {
   font-size: 1rem;
