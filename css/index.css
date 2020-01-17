@@ -125,6 +125,7 @@ h6 {
 .About {
   margin-top: 3%;
   background-image: linear-gradient(#2F2F31, #990000);
+  padding: 5%;
   padding-bottom: 5rem;
 }
 .Blog {
@@ -152,6 +153,11 @@ h6 {
   font-size: 2rem;
   color: blue;
 }
+@media (max-width: 1400px) {
+  .Blog .Symphinity {
+    flex-direction: column;
+  }
+}
 .Media {
   padding-top: 2rem;
   background-color: #990000;
@@ -163,13 +169,30 @@ h6 {
   align-items: center;
   flex-direction: row;
 }
-.Media .Social div {
-  width: 30%;
-}
 .Media .Social div a {
   text-decoration: none;
   color: black;
   font-size: 3rem;
+}
+@media (max-width: 1400px) {
+  .Media .Social div a {
+    padding: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .Media .Social div a {
+    padding: 3rem;
+  }
+}
+@media (max-width: 1400px) {
+  .Media .Social div {
+    margin: 2rem;
+  }
+}
+@media (max-width: 1400px) {
+  .Media .Social {
+    flex-direction: column;
+  }
 }
 address {
   font-size: 1rem;
@@ -178,4 +201,14 @@ address {
 }
 address a {
   text-decoration: none;
+}
+@media (max-width: 1400px) {
+  address {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  address {
+    font-size: 2rem;
+  }
 }
