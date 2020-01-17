@@ -121,35 +121,61 @@ nav a:hover {
   color: white;
   text-shadow: 0.1rem 0.1rem #990000;
 }
-.about {
+h6 {
+  font-size: 0.2rem;
+}
+.About {
   margin-top: 3%;
   background-image: linear-gradient(#2F2F31, #990000);
+  padding-bottom: 5rem;
 }
-.media {
-  margin-top: -1.6rem;
+.Blog {
+  background-color: #990000;
+  border-top: 0.3rem solid black;
+  padding-top: 0.5rem;
+  border-bottom: 0.3rem solid black;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Blog .Symphinity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 5rem;
+}
+.Blog .Symphinity .Text {
+  width: 80%;
+}
+.Blog .Symphinity .Text .Lesson {
+  font-size: 2rem;
+  color: blue;
+}
+.Media {
   padding-top: 2rem;
   background-color: #990000;
+  padding-bottom: 3rem;
 }
-.media .social {
+.Media .Social {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-.media .social div {
+.Media .Social div {
   width: 30%;
 }
-.media .social div a {
+.Media .Social div a {
   text-decoration: none;
   color: black;
   font-size: 3rem;
 }
-h6 {
-  font-size: 0.2rem;
-}
 address {
   font-size: 1rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
   background-image: linear-gradient(#990000, #2F2F31);
 }
 address a {
