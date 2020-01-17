@@ -169,14 +169,10 @@ h6 {
   align-items: center;
   flex-direction: row;
 }
-.Media .Social div {
-  border: 1px solid purple;
-}
 .Media .Social div a {
   text-decoration: none;
   color: black;
   font-size: 3rem;
-  border: 1pc solid blue;
 }
 @media (max-width: 1400px) {
   .Media .Social div a {
