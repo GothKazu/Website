@@ -55,7 +55,7 @@ table {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v1/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
+  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v2/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
 }
 html {
   font-size: 62.5%;
@@ -74,22 +74,50 @@ h3,
 h4,
 h5 {
   font-family: "Solway", serif;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.menu-button {
+  position: absolute;
+  left: 0.2rem;
+  cursor: pointer;
+}
+.menu {
+  display: none;
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  width: 15rem;
+  height: 30rem;
+  background-color: #2F2F31;
+  border: 0.5rem solid black;
+  border-left: none;
+  z-index: 2;
+}
+.menu nav a {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+.menu--open {
+  display: block;
 }
 nav {
-  margin-top: 0.1%;
-  font-size: 2.5rem;
+  margin: 0.1%;
 }
 nav a {
-  font-size: 1rem;
   text-decoration: none;
   color: black;
 }
 nav a:hover {
   color: #990000;
 }
-.top h1 {
+.top a {
+  text-decoration: none;
+}
+.top a h1 {
   color: white;
   text-shadow: 0.1rem 0.1rem #990000;
 }
@@ -123,4 +151,7 @@ address {
   font-size: 1rem;
   padding-top: 2rem;
   background-image: linear-gradient(#990000, #2F2F31);
+}
+address a {
+  text-decoration: none;
 }
