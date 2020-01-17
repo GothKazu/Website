@@ -8,13 +8,30 @@
         
 
         div{
-            width: 30%;
+            border:1px solid purple;
                 
             a{
                 text-decoration: none;
                 color: black;
                 font-size: 3rem;
+                border:1pc solid blue;
+
+                @media @tablet{
+                    padding:2rem;
+                }
+                
+                @media @phone{
+                    padding: 3rem;
+                }
             }//closes div a
+
+            @media @tablet{
+                margin: 2rem;
+            }
         }//closes div
+
+        @media @tablet{
+            flex-direction: column;
+        }
     }//closes social
 }//closes media
