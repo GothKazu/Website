@@ -173,6 +173,7 @@ h6 {
   text-decoration: none;
   color: black;
   font-size: 3rem;
+  margin: 2rem;
 }
 @media (max-width: 1400px) {
   .Media .Social div a {
